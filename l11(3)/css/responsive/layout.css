@@ -1,0 +1,640 @@
+@media screen and (max-width: 1399px) {
+    header nav > a {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    header nav > a {
+        font-size: 0.9rem;
+    }
+
+    header div > div > div .my-profile > figure > figcaption {
+        font-size: 0.75rem;
+        color: #000000;
+        margin-bottom: 0px;
+        text-decoration: none!important;
+     
+      }
+      #first {
+        font-size: 0.75rem;
+        color: #000000;
+        margin-bottom: 0px;
+        text-decoration: none!important;
+        padding: 0px 0px 0px 0px;
+        padding-bottom: 2px;
+        border-bottom: 2px solid transparent;
+      }
+      
+      #second {
+        font-size: 0.75rem;
+        color: #000000;
+        margin-bottom: 0px;
+        text-decoration: none!important;
+        padding: 0px 0px 0px 0px;
+        padding-bottom: 2px;
+        border-bottom: 2px solid transparent;
+      }
+      header div > div > div .my-profile > figure {
+        gap: 0px;
+        margin-bottom: 0;
+      }
+      header div > div > div .my-profile {
+        height: 30px;
+        border-left: 2px solid #000000;
+      }
+}
+
+@media screen and (max-width: 768px) {
+  header div > div> div > a > img {
+        height: 65px;
+
+    }
+    header nav > a {
+        font-size: 0.75rem;
+    }
+    header div > div > div .col-6 {
+        margin-right: 0px;
+    }
+    header div > div > div .my-profile > figure > figcaption {
+        font-size: 0.6rem;
+        color: #000000;
+        margin-bottom: 0px;
+        text-decoration: none!important;
+    }
+    
+    header div > div > div .my-profile {
+        height: 20px;
+        border-left: 2px solid #000000;
+      }
+    header div > div > div > a > figure > img {
+        padding-right: 3px;
+        height: 20px;
+        width: 20px;
+    }
+    #first {
+      font-size: 0.6rem;
+        padding: 0px 0px 0px 0px;
+      }
+    
+      
+    #second {
+      font-size: 0.6rem;
+      }
+      header .vz {
+        height: 50px;
+      }
+}
+
+@media screen and (max-width: 576px) {
+  
+  header .vz { 
+    font-size: 0.5rem;
+    display: block;
+  }
+  header .vz1 { 
+    font-size: 0.5rem;
+    display: block;
+  }
+
+  header div > div > div .my-profile {
+    width: 230px;
+    border-left: 0px;
+  }
+  header .my-profile {
+    max-width: 120px;
+    display: inline-block;
+ }
+
+
+  header .burgerIcon {
+    display: block;
+    margin-left: 20px;
+  }
+
+  header div > div > div > nav > a {
+    display: none;
+  }
+  
+  header .logo {
+    margin-right:0px;
+    display: none;
+  }
+  header .logo2 {
+    margin-right:0px;
+    display: block;
+  }
+  header .vz {
+    display: none;
+  }
+  header .vz1 {
+    display: block;
+    margin-right: 100px
+  }
+  
+
+
+  
+}
+
+@media screen and (max-width: 440px) {
+ 
+  header .my-profile {
+    margin-left: 15px;
+  }
+  header .burgerIcon {
+    display: block;
+    margin-left: 0px;
+  }
+
+  header .logo2 {
+    width: 100px;
+    margin-right: 0px
+  }
+}
+@media screen and (max-width: 414px) {
+  header .vz {
+    padding: 0px 0px 0px 0px;
+    
+  }
+  header nav > a {
+    padding-left: 0px;
+  }
+  header nav > a {
+    font-size: 0.6rem;
+  } 
+  .my-profile {
+    max-width: 150px;;
+  }
+  .vz { 
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 375px)
+{
+  header nav > a {
+    font-size: 0.5rem;
+  }
+  header .logo {
+    width: 100px;
+  }
+  #first {
+    font-size: 0.5rem;
+  }
+  #second {
+    font-size: 0.5rem;
+  }
+  header div > div > div .my-profile > figure > figcaption {
+    font-size: 0.5rem;
+  }
+
+  header .vz1 {
+    margin-right: 50px;
+  }
+  header .my-profile > figure {
+    width: 100px;
+  }
+
+}
+
+@media screen and (max-width: 320px)
+{
+  header .burgerIcon {
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    margin-right: 10px
+  }
+  header .logo2 > img {
+    width: 70px;
+    height: 40px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ >= 1200
+ 992 - 1199
+ 768 - 991 
+ 576 - 768 
+ 460 - 576
+ 414 - 460 
+ 375 - 414 
+ 320 - 375
+ */
+
+@media screen and (max-width: 1199px) {
+  main .boxes img {
+    max-width: 313px;
+  }
+}
+
+
+ @media screen and (max-width: 991px) {
+  main .block0 img {
+      width: 30%;
+      height: 30%;
+  }
+  main .box1 {
+      display:none
+  }
+  
+  
+
+
+
+
+
+  main .block0 .titleBlock0 .nameBlock0 p {
+ 
+      bottom: 30px;
+      margin-left: 20px;
+      color: #5350f2;
+      font-size: 1.25em;
+      font-weight: 600;
+      
+  }
+  
+  main .block0 .titleBlock0 .textBlock0 p {
+      font-size: 0.75rem;
+      
+      bottom: 30px;
+      margin-right: 20px;
+  }
+  
+  main .titleBlock0 button {
+      width: 45%;
+      padding: 6px;
+      border-radius: 30px;
+      background-color: #5350f2;
+      color: #fff;
+      margin-top: 3px;
+      
+      border: none;
+
+  }
+
+  main .boxes img {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .block0 img {
+      width: 50%;
+      display:none;
+  }
+
+  .block1 img {
+      width: 50%;
+  }
+
+
+
+  .block0 .titleBlock0 .nameBlock0 p {
+
+      bottom: 40px;
+      margin-left: 0px;
+      color: #5350f2;
+      font-size: 1.25em;
+      font-weight: 600;
+      margin-left: 20px;
+      margin-top: 30px;
+      text-align: center;
+  }
+  
+  footer > div > div > form > div {
+    display: flex;
+  }
+
+  footer .left a {
+    font-size: 1rem;
+  }
+
+  
+  
+  footer .bot_menu {
+    align-items: center;
+  }
+
+
+  .block0 .titleBlock0 .textBlock0 p {
+      font-size: 0.75em;
+      
+      bottom: 30px;
+      margin-right: 20px;
+      margin-left: 20px;
+      text-align: center;
+  }
+  
+  .titleBlock0 button {
+    width: 500px;
+      border-radius: 30px;
+
+      border: none;
+      margin-bottom: 15px;
+      
+  }
+  main .textBlock0 {
+    justify-content: center;
+  }
+
+  footer form > div{
+    height: 30px;
+  }
+
+  footer .right img {
+    width: 25px;
+    height: 25px;
+  }
+
+  footer .bot_menu a {
+    font-size: 0.93rem;
+  }
+  footer form div input[type='text']{
+    max-height: 30px;
+  }
+
+  header .logo2 {
+    margin-right: 49px;
+  }
+
+  header .logo2{
+    margin-right: 0px;
+  }
+
+  
+}
+
+@media screen and (max-width: 460px) {
+  header div > div > div > a > figure > img {
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .block0 img {
+      width: 40%;
+  }
+  header .logo2 {
+    margin-right: 0px;
+  }
+
+  .block0 .titleBlock0 .nameBlock0 p {
+
+      bottom: 40px;
+      margin-left: 0px;
+      color: #5350f2;
+      font-size: 1.5em;
+      font-weight: 600;
+  }
+  
+  .block0 .titleBlock0 .textBlock0 p {
+      font-size: 1em;
+
+      bottom: 30px;
+      margin-right: 20px;
+  }
+  
+  .titleBlock0 button {
+      width: 50%;
+      padding: 6px;
+      border-radius: 30px;
+      background-color: #5350f2;
+      color: #fff;
+      margin-top: 3px;
+      margin-left: 40px;
+      border: none
+  }
+
+  
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 450px){
+  .block1 p {
+      font-size: 1em;
+  }
+  .block2 img {
+      width: 100%;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .block1 p {
+      font-size: 0.75em;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ >= 1200
+ 992 - 1199
+ 768 - 991 
+ 576 - 768 
+ 460 - 576
+ 414 - 460 
+ 375 - 414 
+ 320 - 375
+ */
+ 
+
+ @media screen and (max-width: 991px){
+  header > .container  {
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  header > .container nav {
+      font-size: 0.875em;
+  }
+
+  header > .container > img {
+      margin-right: 35px;
+      margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  header .container .menu a {
+      margin-top: 0px;
+      margin-right: 5px;
+      margin-bottom: 0px;
+      margin-left: 5px;
+  }
+
+  header > .container nav {
+      font-size: 0.75em;
+  }
+
+  header > .container > img {
+      margin-right: 35px;
+      margin-bottom: 10px;
+  }
+  
+}
+
+@media screen and (max-width: 576px){
+  header .burgerIcon {
+      display: inline-block;
+      margin: 0!important;
+  }
+
+  header > .container > img {
+      margin-right: 250px;
+  }
+
+  header .container .menu {
+      display: none;
+  }
+
+  header .container .menu a {
+      margin: 0 10px;
+      margin-top: 17px;
+      margin-bottom: 17px;
+      display: block;
+  }
+}
+
+@media screen and (max-width: 450px){
+  header > .container > img {
+      margin-right: 150px;
+  }
+}
+
+@media screen and (max-width: 460px){
+  main .block2 .items .boxes {
+    max-width: 430px;
+  }
+}
+
+@media screen and (max-width: 375px){
+  header > .container > img {
+      margin-right: 50px;
+  }
+}
+
+
+
+
+@media screen and (max-width: 991px){
+  footer > .container  {
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  footer > .container nav {
+      font-size: 0.875em;
+  }
+
+  header > .container > img {
+      margin-right: 35px;
+      margin-bottom: 10px;
+  }
+}
+
+
+@media screen and (max-width: 767px){
+  footer > .container nav {
+      display:inline-block ;
+  }
+  footer form div {
+      width: 150px;
+      height: 40px;
+      
+  }
+
+  footer form div input[type='text'] {
+      width: 90px;
+      height: 35px;
+  }
+
+  footer form div input[type='submit'] {
+      width: 30px;
+      height: 30px;
+  }
+}
+
+@media screen and (max-width: 576px){
+  footer .left form div {
+      
+      justify-content: left;
+  
+  }
+  
+
+  footer form div input[type='text'] {
+      border: none;
+
+  }
+
+  
+}

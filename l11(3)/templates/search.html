@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Log in</title>
+        <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <link rel="stylesheet" href="../static/css/footer header.css" type="text/css">
+        <link rel="stylesheet" href="../static/css/bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="../static/css/responsive/footer header.css" type="text/css">
+        <link rel="stylesheet" href="../static/css/search.css" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    </head>
+    <body style="background: #e3ffff;">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <header>
+            <div class="head container-fluid">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <a href="/" class="logo col-2">
+                            <img src="../static/images/Logo.png" id="bikeshare" />    
+                        </a>
+                        <nav class="menuf col-sm-9 col-md-6 d-flex align-items-center justify-content-between">
+                            <a href="#" class="">Все продукты</a>
+                            <a href="#" class="">Тарифы</a>
+                            <a href="#" class="">Поддержка</a>
+                            <a href="#" class="">О компании</a>
+                        </nav>
+                        <a href="/profile" class="my-profile col-sm-5 col-md-2">
+                            <figure class="d-flex align-items-center">
+                                <img src="../static/images/profile-icon.png" alt="" />
+                                <figcaption>Мой профиль</figcaption>
+                            </figure>
+                        </a>
+                        <div class="vz1 col-1">
+                            <a href="/log" id="first">Войти</a>
+                            <a href="reg" id="second">Зарегистрироваться</a>
+                        </div>
+                        <a href="#" class="logo2 col-4">
+                            <img src="../static/images/Logo.png" id="bikeshare" />    
+                        </a>
+                        <div class="vz col-1">
+                            <a href="/log" id="first">Войти</a>
+                            <a href="/reg" id="second">Зарегистрироваться</a>
+                        </div>
+                        <img class="burgerIcon" src="../static/images/burger_menu.png" alt="menu" />
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-12">
+                    <input class="form-control" id="myInput" type="text" placeholder="Поиск..">
+                </div>
+            </div>
+            
+            <div class="row gx-5 gy-5 mt-2" id="myList">
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3 list-item">
+                    <div class="card" style="max-width: 18rem;">
+                        <img src="../static/images/tarif1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Тариф 1</h5>
+                            <p class="card-text">Предоставляет базовый доступ к клиентским данным, отправку напоминаний и уведомлений.</p>
+                            <a href="#" class="btn btn-primary">Купить</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3 list-item">
+                    <div class="card" style="max-width: 18rem;">
+                        <img src="../static/images/tarif2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Тариф 2</h5>
+                            <p class="card-text">Включает функции управления клиентами, планирования рабочего времени, учета запчастей и отчетности. </p>
+                            <a href="#" class="btn btn-primary">Купить</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3 list-item">
+                    <div class="card" style="max-width: 18rem;">
+                        <img src="../static/images/tarif3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Тариф 3</h5>
+                            <p class="card-text"> Предоставляет широкий спектр функций для нескольких центров обслуживания, расширенную аналитику и поддержку API.</p>
+                            <a href="#" class="btn btn-primary">Купить</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3 list-item">
+                    <div class="card" style="max-width: 18rem;">
+                        <img src="../static/images/tarif4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Тариф 4</h5>
+                            <p class="card-text">Индивидуальная настройка, высокий уровень поддержки 24/7, интеграция с дополнительными системами и обновления данных в режиме реального времени.</p>
+                            <a href="#" class="btn btn-primary">Купить</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#myInput").on("keyup", function() {
+                    var value = $(this).val().toLowerCase();
+    
+                    $("#myList .list-item").filter(function() {
+                        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                    });
+                });
+            });
+        </script>
+        </bodystyle="background:>
+        <footer class="container d-flex">
+            <div class="container d-flex"> 
+               <div class="left d-flex">
+                   <nav class="bot_menu">
+                       <a href="#">Партнёры</a>
+                       <a href="#">О компании</a>
+                       <a href="#">Обратная связь</a>
+                   </nav>
+                  <form name="e-mail" action="#" method="get">
+                     <div>
+                        <input type="text" name="e-mail" placeholder="E-mail" />
+                        <input type="submit" name="e-mail" value="" />
+                     </div>
+                  </form>
+               </div>
+               <div class="right d-flex">
+                  <img src='../static/images/VK.png' alt="VK" />
+                  <img src='../static/images/WhatsApp.png' alt="WhatsApp" />
+                  <img src='../static/images/Telegram.png' alt="Telegram" />
+                  <p>@Fardiev</p>
+               </div>
+            </div> 
+         </footer>
+    </body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>searchForm</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_UA&apikey=a96a7c12-b4c8-4a3f-b953-3d649ba33ddd" type="text/javascript"></script>
+  <limk href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="stylesheet" href="../static/css/layout.css" type="text/css">
+  <link rel="stylesheet" href="../static/css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="../static/css/responsive/layout.css" type="text/css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <header>
+            <div class="head container-fluid">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <a href="/" class="logo col-2">
+                            <img src="../static/images/Logo.png" id="bikeshare" />    
+                        </a>
+                        <nav class="menuf col-sm-9 col-md-6 d-flex align-items-center justify-content-between">
+                            <a href="/searchY" class="">Строка поиска</a>
+                            <a href="#" class="">Тарифы</a>
+                            <a href="#" class="">Поддержка</a>
+                            <a href="#" class="">О компании</a>
+                        </nav>
+                        <a href="/profilepost" class="my-profile col-sm-5 col-md-2">
+                            <figure class="d-flex align-items-center">
+                                <img src="../static/images/profile-icon.png" alt="" />
+                                <figcaption>Мой профиль</figcaption>
+                            </figure>
+                        </a>
+                        <div class="vz1 col-1">
+                            <a href="/login" id="first">Войти</a>
+                            <a href="/register" id="second">Зарегистрироваться</a>
+                        </div>
+                        <a href="#" class="logo2 col-4">
+                            <img src="../static/images/Logo.png" id="bikeshare"/>    
+                        </a>
+                        <div class="vz col-1">
+                            <a href="/login" id="first">Войти</a>
+                            <a href="/register" id="second">Зарегистрироваться</a>
+                        </div>
+                        <img class="burgerIcon" src="../static/images/burger_menu.png" alt="menu" />
+                    </div>
+                </div>
+            </div>
+        </header>
+  <input type="text" id="search_term" placeholder="Введите запрос... " style="margin-left: 750px; margin-bottom: 20px;">
+  <button onclick="searchOnYandex()" style="justify-content: center;">Поиск на Yandex</button>
+  <!-- КОНТЕЙНЕР ДЛЯ КАРТЫ -->
+<div id="myMap" style="width: 1864px; height: 650px;" style="justify-content: center;"></div>
+
+<!-- СКРИПТ КАРТЫ -->
+<script>
+ymaps.ready(init);
+function init(){     
+    var myMap = new ymaps.Map ('myMap', {
+        center: [55.807521, 49.184368],
+        zoom: 12
+    });
+    /*СОЗДАЕМ ЭКЗЕМПЛЯР КЛАССА Placemark*/
+    var myPlacemark = new ymaps.Placemark([55.807521, 49.184368], { 
+        iconContent: '', //текст на иконке
+        balloonContent: 'КНИТУ, корпус "Д"' /*текст появляющийся после нажатия*/
+    }, {
+        preset: 'twirl#blueStretchyIcon' //тип иконки
+    });
+    
+    /*ДОБАВЛЯЕМ СОЗДАННУЮ КНОПКУ НА НАШУ КАРТУ*/
+    myMap.geoObjects.add(myPlacemark);
+}
+</script>
+</body>
+<script>
+  function searchOnYandex() {
+    const term = document.getElementById('search_term').value;
+    if (term=='') {
+      alert('Введите текст в поисковик')
+      return
+    }
+    const url = `https://yandex.ru/search/?text=${term}`;
+    window.open(url, 'Yan', 'left=300, top=300, width=200,hight=400,toolbar=no,menubar=no,location=no,directories=no,scrollbars=yes');
+  }
+
+</script>
+<footer class="container d-flex">
+  <div class="container d-flex"> 
+     <div class="left d-flex">
+        <nav class="bot_menu">
+            <a href="#">Партнёры</a>
+            <a href="#">О компании</a>
+            <a href="#">Обратная связь</a>
+        </nav>
+        <form name="e-mail" action="#" method="get">
+           <div>
+              <input type="text" name="e-mail" placeholder="E-mail" />
+              <input type="submit" name="e-mail" value="" />
+           </div>
+        </form>
+     </div>
+     <div class="right d-flex">
+        <img src='../static/images/VK.png' alt="VK" />
+        <img src='../static/images/WhatsApp.png' alt="WhatsApp" />
+        <img src='../static/images/Telegram.png' alt="Telegram" />
+        <p>@Fardiev</p>
+     </div>
+  </div> 
+</footer>
+
+</html>

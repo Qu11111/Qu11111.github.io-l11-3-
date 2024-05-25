@@ -1,0 +1,416 @@
+:root {
+    font-size: 16px !important;
+}
+
+ * {
+    box-sizing: border-box;
+ }
+
+ ul, p, h1, h2, h3, figure, figcaption {
+    margin: 0;
+    padding: 0;
+ }
+
+ li {
+    list-style: none;
+ }
+ a {
+    text-decoration: none;
+ }
+
+ .clear {
+    clear: both;
+ }
+
+ /* fonts */
+
+ @font-face {
+    font-family: "opensans";
+    font-weight: normal;
+    font-style: normal;
+    src: url ("../fonts/OpenSans.ttf")
+ }
+
+ body {
+    font-family: "opensans";
+    margin: 0;
+    width: 100%;
+ }
+
+
+ header .container, .head {
+   padding: 5px 0;
+ }
+ header div > div > div > nav {
+   margin-right: 25px;
+ }
+ header nav > a {
+   font-size: 1.25rem;
+   text-decoration: none;
+   color: #000000;
+   padding-bottom: 4px;
+   border-bottom: 3px solid transparent;
+ }
+
+ header nav > a:hover {
+   /*color: #5350f2;
+   border-bottom: 3px solid #5350f2;
+   transition: 0.5s all ease;*/
+ }
+
+
+ header .head {
+   padding: 14px 0;
+ }
+
+ header a > figure > img {
+   max-width: 20%;
+   max-height: 20%;
+ }
+ header div > div > div .my-profile {
+   height: 40px;
+   /*border-left: 2px solid #000000;*/
+ }
+
+ header div > div > div .my-profile > figure {
+   gap: 10px;
+ }
+
+ header div > div > div .my-profile > figure > figcaption {
+   font-size: 1rem;
+   color: #000000;
+   margin-bottom: 0px;
+   text-decoration: none;
+   align-items: center;
+ }
+
+ header div > div > div .my-profile {
+  height: 40px;
+  /*border-left: 2px solid #000000;*/
+  align-items: center;
+}
+
+
+ #first {
+   font-size: 1rem;
+   color: #000000;
+   margin-bottom: 0px;
+   text-decoration: none;
+   padding: 0px 0px 0px 0px;
+   padding-bottom: 2px;
+   border-bottom: 2px solid transparent;
+ }
+ 
+ #second {
+   font-size: 1rem;
+   color: #000000;
+   margin-bottom: 0px;
+   text-decoration: none;
+   padding: 0px 0px 0px 0px;
+   padding-bottom: 2px;
+   border-bottom: 2px solid transparent;
+ }
+
+ #first:hover {
+   /*color: #5350f2;
+   border-bottom: 2px solid #5350f2;
+   transition: 0.5s all ease;*/
+ }
+#second:hover {
+    /*color: #5350f2;
+   border-bottom: 2px solid #5350f2;
+   transition: 0.5s all ease;*/
+ }
+ header .vz1 {
+  display: none;
+ }
+
+ header .burgerIcon {
+  width: 60px;
+  height: 38px;
+  display: none;
+  margin: 0;
+ }
+
+ header .my-profile {
+  color: black;
+  text-decoration: none;
+}
+
+header .logo2 {
+  display: none;
+}
+
+.vz {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Выравнивание элементов вправо */
+}
+
+.vz a {
+  margin-right: 10px; /* Добавляем отступ между кнопками */
+}
+
+.logo2 {
+  display: none; /* Скрыть логотип, если требуется */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main .box figure figcaption{
+  padding-left: 23px;
+  color: black;
+  
+}
+
+main .box figure figcaption p span {
+  font-size: 1.250em;
+  font-weight: 600;
+}
+
+main .box figure figcaption p {
+  font-size: 1em;
+}
+
+main .box .title {
+  color:black;
+  font-size: 1em;
+  padding-left: 50px;
+  margin-top: 10px;
+}
+
+
+main .box1 {
+  margin: 20px;
+}
+
+main .box button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 20px;
+  background-color: #5350f2;
+  color: #fff;
+  margin-top: 15px;
+  border: none
+}
+
+main .box1 button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 20px;
+  background-color: #5350f2;
+  color: #fff;
+  margin-top: 15px;
+  border: none
+}
+
+main .box button:hover {
+  cursor: pointer;
+}
+main .box1 button:hover {
+  cursor: pointer;
+}
+
+
+main .block2 .items .boxes{
+  flex-wrap:wrap;
+}
+
+main .block2 .items .boxes .box{
+  margin-bottom: 28px;
+  margin-right: 70px;
+  margin-left: 70px;
+}
+
+main .boxes .title1 {
+  font-size: 1.250em;
+  font-weight: 600;
+}
+
+main .block2 .items .month p {
+  color: #5350f2;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-left: 30px
+}
+
+main .block2 .items .boxes .box .name p {
+  font-size: 1.25em;
+}
+
+main .block0 .titleBlock0 .nameBlock0 p {
+  bottom: 120px;
+  margin-left: 20px;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+main .block0 .titleBlock0 .textBlock0 p {
+    font-size: 1.75em;
+    color: white;
+    bottom: 70px;
+    margin-right: 20px;
+}
+
+main .titleBlock0 button {
+    width: 50%;
+    padding: 12px;
+    border-radius: 30px;
+    font-size: 1.75em;
+    background-color: #3ddbff;
+    color: black;
+    margin-top: 10px;
+    margin-left: 50px;
+    border: none
+}
+
+main .titleBlock0 button:hover {
+  cursor: pointer;
+}
+
+main .block1 p {
+  font-size: 1.25em;
+}
+
+main .block1 figure {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+footer {
+
+  padding-top: 60px;
+  padding-bottom: 25px;
+  margin: 0px 10px 0px 0px
+}
+
+footer .right p {
+  display:block
+}
+
+footer .left a {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #000000;
+  margin: 0 10px;
+}
+
+footer .left a {
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+}
+footer .left a:hover {
+  /*color: #5350f2;
+  border-bottom: 2px solid #5350f2;
+  transition: 0.5s all ease;*/
+}
+
+
+
+
+footer > .container  {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+footer form div {
+  justify-content: center;
+  padding: 0px 5px;
+  border: 3px solid black;
+  border-radius: 50px;
+  height: 40px;
+}
+
+footer form div input[type='submit'] {
+  background: url("../images/send.png") no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  border: none;
+  align-items: center;
+}
+
+footer form div input[type='text'] {
+  border: none;
+  height: 15px;
+  margin-left: 10px;
+  padding-top:3px;
+  width: 150px;
+}
+
+
+footer nav {
+  align-items: center;
+}
+
+
+
+
+
+
+
+main #carouselExampleIndicators > div > div > img {
+  max-height: 800px;
+
+  object-fit: cover;
+}
+
+#primer {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+
+
+main .boxes {
+  justify-content: center;
+}
+
+footer > div {
+  justify-content: center;
+}
+
+footer form > input {
+  height: 25px;
+}
+
+footer form div input[type='submit'] {
+  height: 25px;
+  display: inline-block;
+  padding: 0px;
+}
